@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 222, 222);
+    height: auto;
+    width: 100vh;
+}
+
+.navbar{
+    width: 208%;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    padding: 5vh;
+    background-color: rgb(215, 57, 0);
+    align-items: center;
+    color: white;
+}
+
+.navbar img{
+    border-radius: 10vh;
+    width: 50vh;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6vh;
+}
+
+.icerikler{
+    padding: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-weight: bold;
+}
+
+.icerikler .hakkimda{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 226%;
+    padding: 3vh 2vh 3vh 2vh;
+    text-align: left;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+}
+
+.icerikler .hakkimda h1{
+    color: rgb(215, 57, 0);
+}
+
+.icerikler .projeler{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 226%;
+    padding: 2vh;
+    text-align: left;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+}
+
+.icerikler .projeler h1{
+    color: rgb(215, 57, 0);
+}
+
+.icerikler .yetenekler{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 226%;
+    padding: 2vh;
+    text-align: left;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+}
+
+.icerikler .yetenekler h1{
+    color: rgb(215, 57, 0);
+}
+
+.icerikler .yetenekler ul{
+    margin-left: 6vh;
+}
+
+.icerikler .iletisim{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 226%;
+    padding: 2vh;
+    text-align: left;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+}
+
+.icerikler .iletisim h1{
+    color: rgb(215, 57, 0);
+}
+
+.footer{
+    width: 226%;
+    text-align: center;
+    background-color: rgb(215, 57, 0);
+    color: white;
+    padding: 3vh 0 3vh 0;
+}
